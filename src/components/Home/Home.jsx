@@ -25,7 +25,7 @@ const Home = () => {
 
 
             <a
-              href="https://drive.google.com/file/d/1txlfpUBmSgqLrpnFH1YT732HVe4RqtNP/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1kEBuoTceLXZKn42Hmem0Xq1i0IcFybbt/view?usp=drive_link"
               download
               target="_blank"
               className="inline-flex items-center gap-2 px-4 py-2 border border-[#800020] text-sm text-white hover:bg-[#800020] hover:border-[#800020] rounded-full transition duration-500"
