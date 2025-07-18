@@ -9,6 +9,7 @@ import eclipse from './assets/company_logo/eclipse.png';
 import hibernate from './assets/company_logo/hibernate.png';
 import mysql from './assets/company_logo/mysql.png';
 import php from './assets/company_logo/php.png';
+import reactimg from './assets/tech_logo/reactjs.png'
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import cLogo from './assets/tech_logo/c.png';
 import figmaLogo from './assets/tech_logo/figma.png';
@@ -37,7 +38,7 @@ import neriLogo from './assets/education_logo/twelth.png';
 import imagesearchLogo from './assets/company_logo/Admin.png';
 import npmLogo from './assets/company_logo/login.png';
 import githubdetLogo from './assets/company_logo/satten.png';
-import scm from './assets/company_logo/SCM.png';
+import scm from './assets/company_logo/smartconnect.png';
 import taskremLogo from './assets/company_logo/slogin.png';
 import webverLogo from './assets/company_logo/tsd.png';
 
@@ -48,6 +49,7 @@ export const SkillsInfo = [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'React JS', logo: reactimg },
       { name: 'Angular JS', logo: angular },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
