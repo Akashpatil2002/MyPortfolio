@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 This project showcases my skills, projects, and experiences as a **Full Stack Developer**.
 
-🔗 **Live Website:** [https://yourusername.github.io/portfolio](https://yourusername.github.io/portfolio)  
+🔗 **Live Website:**: https://akashpatil2002.github.io/MyPortfolio/  
 📧 **Contact:** akashpatil9394@gmail.com
 
 ---
