@@ -19,19 +19,19 @@ const Home = () => {
         <div className="w-full flex flex-col md:flex-row justify-between gap-10 md:gap-16 items-start">
           {/* Left Section */}
           <div className="w-full md:w-3/5">
-          <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-normal mb-5">
-             I'm a recent BE graduate in Computer Science and Engineering from North Maharashtra University, Jalgaon. I’ve completed a Java Full Stack Developer course at Kiran Academy (JavaByKiran), where I gained hands-on experience with Java, Spring Boot, JDBC, JSP, and MySQL. I'm passionate about full stack web development and software engineering, with a strong interest in building scalable, user-friendly applications. I actively solve coding problems on LeetCode, HackerRank, and CodeChef to strengthen my problem-solving skills. I enjoy working on real-world projects, exploring frontend development, and contributing to open-source.
-          </p>
+            <p className="text-xs sm:text-sm md:text-base text-gray-300 leading-normal mb-5">
+              I'm a recent BE graduate in Computer Science and Engineering from North Maharashtra University, Jalgaon. I’ve completed a Java Full Stack Developer course at Kiran Academy (JavaByKiran), where I gained hands-on experience with Java, Spring Boot, JDBC, JSP, and MySQL. I'm passionate about full stack web development and software engineering, with a strong interest in building scalable, user-friendly applications. I actively solve coding problems on LeetCode, HackerRank, and CodeChef to strengthen my problem-solving skills. I enjoy working on real-world projects, exploring frontend development, and contributing to open-source.
+            </p>
 
 
             <a
-              href="https://drive.google.com/file/d/1kEBuoTceLXZKn42Hmem0Xq1i0IcFybbt/view?usp=drive_link"
-              download
+              href="https://drive.google.com/file/d/112IpI0GKCMtMOvMxmVbuzg_P1crtiVhb/view"
               target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 border border-[#800020] text-sm text-white hover:bg-[#800020] hover:border-[#800020] rounded-full transition duration-500"
             >
               <FaDownload className="text-base" />
-              Download Resume
+              View Resume
             </a>
           </div>
 
