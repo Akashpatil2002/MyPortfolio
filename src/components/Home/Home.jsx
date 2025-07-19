@@ -23,7 +23,6 @@ const Home = () => {
               I'm a recent BE graduate in Computer Science and Engineering from North Maharashtra University, Jalgaon. I’ve completed a Java Full Stack Developer course at Kiran Academy (JavaByKiran), where I gained hands-on experience with Java, Spring Boot, JDBC, JSP, and MySQL. I'm passionate about full stack web development and software engineering, with a strong interest in building scalable, user-friendly applications. I actively solve coding problems on LeetCode, HackerRank, and CodeChef to strengthen my problem-solving skills. I enjoy working on real-world projects, exploring frontend development, and contributing to open-source.
             </p>
 
-
             <a
               href="https://drive.google.com/file/d/112IpI0GKCMtMOvMxmVbuzg_P1crtiVhb/view?usp=sharing"
               target="_blank"
