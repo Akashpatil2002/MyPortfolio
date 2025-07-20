@@ -5,6 +5,8 @@ import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/akash2.JPG';
 import { FaInstagram, FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 import { FiChevronDown } from 'react-icons/fi';
+import HeroTypingBlink from './HeroTypingBlink';
+// import './App.css';
 
 const About = () => {
   const [views, setViews] = useState(0);
@@ -27,10 +29,10 @@ const About = () => {
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#800020] to-purple-200 mb-4 leading-tight">
-            Akash Sonawane
+            Akash Sonavane
           </h2>
 
-          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-4 text-[#800020] leading-tight">
+          {/* <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-4 text-[#800020] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
@@ -47,7 +49,15 @@ const About = () => {
                 <span className="text-[#800020]">{cursor}</span>
               )}
             />
+          </h3> */}
+
+
+
+          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 text-[#800020] leading-tight">
+            <span className="text-white">I am a </span>
+            <HeroTypingBlink />
           </h3>
+
 
           <p className="text-sm sm:text-base text-gray-400 mb-6 mt-8 leading-normal">
             {/* I'm a Full Stack Java Developer with hands-on experience in building dynamic web applications using Java, Spring Boot, JSP, SQL and MySQL. I also create responsive frontends using HTML, CSS, JavaScript, and Bootstrap. I enjoy solving real-world problems with clean code and efficient database design. */}
