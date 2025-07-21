@@ -1,4 +1,5 @@
-import { experiences } from "../../constants"; // Your experience data
+import { experiences } from "../../constants";
+import React from "react";
 
 const Experience = () => {
   return (
@@ -25,9 +26,8 @@ const Experience = () => {
         {experiences.map((experience, index) => (
           <div
             key={experience.id}
-            className={`flex flex-col sm:flex-row items-center mb-16 ${
-              index % 2 === 0 ? "sm:justify-end" : "sm:justify-start"
-            }`}
+            className={`flex flex-col sm:flex-row items-center mb-16 ${index % 2 === 0 ? "sm:justify-end" : "sm:justify-start"
+              }`}
           >
             {/* Timeline Circle with Logo */}
             <div className="absolute sm:left-1/2 left-5 transform -translate-x-1/2 sm:-translate-x-1/2 bg-gray-300 border-4 border-[#8B0000] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
@@ -40,9 +40,8 @@ const Experience = () => {
 
             {/* Experience Card */}
             <div
-              className={`w-full sm:max-w-sm p-4 sm:p-5 mt-16 sm:mt-0 rounded-xl border border-[#8B0000] bg-white/10 backdrop-blur-md transform transition-transform duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_4px_rgba(139,0,0,0.6)] ${
-                index % 2 === 0 ? "sm:ml-[12rem]" : "sm:mr-[12rem]"
-              }`}
+              className={`w-full sm:max-w-sm p-4 sm:p-5 mt-16 sm:mt-0 rounded-xl border border-[#8B0000] bg-white/10 backdrop-blur-md transform transition-transform duration-300 hover:scale-[1.02] hover:shadow-[0_0_20px_4px_rgba(139,0,0,0.6)] ${index % 2 === 0 ? "sm:ml-[12rem]" : "sm:mr-[12rem]"
+                }`}
             >
               {/* Top Row */}
               <div className="flex items-center space-x-4">
@@ -59,7 +58,6 @@ const Experience = () => {
                   </h3>
                   <h4 className="text-sm text-gray-300">{experience.company}</h4>
                   <p className="text-xs text-gray-500 mt-0.5">{experience.date}</p>
-                  <p className="text-sm text-gray-300">{experience.project}</p>
                 </div>
               </div>
 
@@ -91,3 +89,4 @@ const Experience = () => {
 };
 
 export default Experience;
+
