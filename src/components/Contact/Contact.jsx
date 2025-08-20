@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_4uy6w9d",
-        "template_nquicku",
+        "service_atrr1vh",
+        "template_sfnggmm",
         form.current,
-        "Av5Vy1u7p5_P_BNkB"
+        "EF49LAIRiVRYRAVjL"
       )
       .then(
         () => {
@@ -75,27 +75,27 @@ const Contact = () => {
         >
           <input
             type="email"
-            name="user_email"
+            name="useremail"
             placeholder="Your Email"
             required
             className="w-full p-3 rounded-md bg-transparent text-white border border-[#661a47] focus:outline-none focus:border-[#b91372] placeholder-white"
           />
           <input
             type="text"
-            name="user_name"
+            name="username"
             placeholder="Your Name"
             required
             className="w-full p-3 rounded-md bg-transparent text-white border border-[#661a47] focus:outline-none focus:border-[#b91372] placeholder-white"
           />
           <input
             type="text"
-            name="subject"
+            name="usersubject"
             placeholder="Subject"
             required
             className="w-full p-3 rounded-md bg-transparent text-white border border-[#661a47] focus:outline-none focus:border-[#b91372] placeholder-white"
           />
           <textarea
-            name="message"
+            name="usermessage"
             placeholder="Message"
             rows="4"
             required
