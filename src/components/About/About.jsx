@@ -11,12 +11,6 @@ import HeroTypingBlink from './HeroTypingBlink';
 const About = () => {
   const [views, setViews] = useState(0);
 
-  /*  useEffect(() => {
-     fetch('https://api.countapi.xyz/hit/miteshchaudhari18-portfolio/views')
-       .then((res) => res.json())
-       .then((data) => setViews(data.value));
-   }, []); */
-
   return (
     <motion.section
       id="about"
