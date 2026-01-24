@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import bgImage from "./assets/bg.jpg";
 import About from "./components/About/About";
+import Whatsapp from "./components/Whatsapp/WhatsAppButton";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Skills />
         <Work />
         <Education />
+        <Whatsapp />
         <Contact />
         <Footer />
       </div>
